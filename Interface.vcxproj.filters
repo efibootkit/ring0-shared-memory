@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="entry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="handler.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="tick.hpp">
+      <Filter>impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="impl">
+      <UniqueIdentifier>{6782c589-a094-4ca2-b5f0-dc593e4fc5ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
